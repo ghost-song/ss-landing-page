@@ -1,0 +1,17 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.introduction {
+    background-color: #5f0101;
+    color: white;
+    margin: 0px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
