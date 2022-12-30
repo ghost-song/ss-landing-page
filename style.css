@@ -1,17 +1,42 @@
 body {
     padding: 0px;
     margin: 0px;
+    font-family: roboto, Arial, Helvetica, sans-serif;
 }
 
 .introduction {
     background-color: #5f0101;
     color: white;
     margin: 0px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.introstatement {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.xzintro {
+    width: 600px;
+    height: auto;
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
+    font-weight: bold;
+}
+
+.logo {
+    font-size: x-large;
 }
