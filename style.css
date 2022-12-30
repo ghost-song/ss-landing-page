@@ -24,6 +24,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
+    gap: 50px;
 }
 
 .xzintro {
@@ -39,4 +40,17 @@ body {
 
 .logo {
     font-size: x-large;
+}
+
+.statement {
+    font-size: large;
+}
+
+.signup {
+    padding: 10px 20px 10px;
+    background-color: white;
+    color: rgb(132, 2, 2);
+    font-weight: bold;
+    border-radius: 25px;
+    font-size: 15px;
 }
